@@ -39,11 +39,13 @@ nav a:active {
 }
 nav .links {
   flex: 1;
+  padding-left: 6vw;
   /* border: 2px solid red; */
   display: flex;
   justify-content: space-around;
   align-items: center;
   gap: 2.5rem;
+  font-size: 1.3vw;
 }
 nav .links .contact-us {
   padding: 0.5rem;
@@ -325,6 +327,15 @@ footer {
   color: var(--theme-color);
   border-radius: 15px;
   padding: 1vw;
+}
+.side-social-media-links i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid transparent;
+}
+.side-social-media-links i:hover {
+  border: 2px solid var(--theme-color);
 }
 
 .side-social-media-links i img {

@@ -20,12 +20,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- CSS stylesheet -->
     <link rel="stylesheet" href="stylesheets/contact-us.css" />
+    <link rel="stylesheet" href="stylesheets/navbar.css" />
+
     <!-- Font awesome CDN -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
     <!-- Google fonts -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -38,15 +41,15 @@
     <!-- Navbar -->
     <nav>
       <div class="logo">
-        <img src="/assets/logo.png" alt="Adroittech logo" />
+        <img src="./assets/logo.png" alt="Adroittech logo" />
       </div>
       <div class="links">
         <a href="./index.html">HOME</a>
-        <a href="./About us.html">ABOUT</a>
+        <a href="./about-us.html">ABOUT</a>
         <a href="">SERVICES</a>
-        <a href="./Blog.html">BLOG</a>
-        <a href="./Career.html">CAREERS</a>
-        <a class="contact-us" href="./Contact us.html">CONTACT US</a>
+        <a href="">BLOG</a>
+        <a href="">CAREERS</a>
+        <a class="contact-us" href="./contact-us.html">CONTACT US</a>
       </div>
       <button class="hamberger" onclick="hamClick()">
         <i class="fas fa-bars"></i>
@@ -55,11 +58,11 @@
 
     <div class="mobnav drawerClosed">
       <a href="./index.html">HOME</a>
-      <a href="./About us.html">ABOUT</a>
+      <a href="./about-us.html">ABOUT</a>
       <a href="">SERVICES</a>
-      <a href="./Blog.html">BLOG</a>
-      <a href="./Career.html">CAREERS</a>
-      <a href="./Contact us.html">CONTACT US</a>
+      <a href=".">BLOG</a>
+      <a href=".">CAREERS</a>
+      <a href="./contact-us.html">CONTACT US</a>
     </div>
 
     <!-- Hero -->
@@ -125,11 +128,10 @@
     <!-- Footer -->
     <footer>
       <div class="side-social-media-links">
-        <i><img src="./assets/facebook-app-symbol.png" /></i>
-        <i><img src="./assets/instagram.png" /></i>
-        <i><img src="./assets/youtube.png" /></i>
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-youtube"></i>
       </div>
-
       <div class="heading">
         <h1>
           <span>Ready for an</span><br />
@@ -164,15 +166,18 @@
         /></a>
 
         <div class="social">
+          <div class="quick-links">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="./about-us.html">About Us</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Services</a></li>
+            </ul>
+          </div>
           <div class="clutch">
             <img src="./assets/clutch.png" alt="clutch" />
             <p>Review Us on clutch</p>
-          </div>
-          <div class="social-media-links">
-            <p>Follow us!</p>
-            <i><img src="./assets/facebook-app-symbol.png" /></i>
-            <i><img src="./assets/instagram.png" /></i>
-            <i><img src="./assets/youtube.png" /></i>
           </div>
         </div>
       </div>

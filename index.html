@@ -20,6 +20,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- CSS stylesheet -->
     <link rel="stylesheet" href="stylesheets/home.css" />
+    <link rel="stylesheet" href="stylesheets/navbar.css" />
+
     <!-- Font awesome CDN -->
     <link
       rel="stylesheet"
@@ -63,14 +65,14 @@
     <!-- Navbar -->
     <nav>
       <div class="logo">
-        <img src="/assets/logo.png" alt="Adroittech logo" />
+        <img src="./assets/logo.png" alt="Adroittech logo" />
       </div>
       <div class="links">
-        <a href="#">HOME</a>
-        <a href="./About us.html">ABOUT</a>
+        <a href="./home.html">HOME</a>
+        <a href="./about-us.html">ABOUT</a>
         <a href="">SERVICES</a>
-        <a href="./Blog.html">BLOG</a>
-        <a href="./Career.html">CAREERS</a>
+        <a href="">BLOG</a>
+        <a href="">CAREERS</a>
         <a class="contact-us" href="./contact-us.html">CONTACT US</a>
       </div>
       <button class="hamberger" onclick="hamClick()">
@@ -79,11 +81,11 @@
     </nav>
 
     <div class="mobnav drawerClosed">
-      <a href="#">HOME</a>
-      <a href="./About us.html">ABOUT</a>
+      <a href="./home.html">HOME</a>
+      <a href="./about-us.html">ABOUT</a>
       <a href="">SERVICES</a>
-      <a href="./Blog.html">BLOG</a>
-      <a href="./Career.html">CAREERS</a>
+      <a href="">BLOG</a>
+      <a href="">CAREERS</a>
       <a href="./contact-us.html">CONTACT US</a>
     </div>
 
@@ -297,6 +299,11 @@
 
     <!-- Footer -->
     <footer>
+      <div class="side-social-media-links">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-youtube"></i>
+      </div>
       <div class="heading">
         <h1>
           <span>Ready for an</span><br />
@@ -331,15 +338,18 @@
         /></a>
 
         <div class="social">
+          <div class="quick-links">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="./home.html">Home</a></li>
+              <li><a href="./about-us.html">About Us</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Services</a></li>
+            </ul>
+          </div>
           <div class="clutch">
             <img src="./assets/clutch.png" alt="clutch" />
             <p>Review Us on clutch</p>
-          </div>
-          <div class="social-media-links">
-            <p>Follow us!</p>
-            <i><img src="./assets/facebook-app-symbol.png" /></i>
-            <i><img src="./assets/instagram.png" /></i>
-            <i><img src="./assets/youtube.png" /></i>
           </div>
         </div>
       </div>

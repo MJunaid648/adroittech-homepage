@@ -1,5 +1,5 @@
 :root {
-  --theme-color: orange;
+  --theme-color: #f79164;
 }
 * {
   padding: 0;
@@ -12,125 +12,6 @@ body {
   background-color: black;
   color: white;
 }
-nav {
-  padding: 1rem;
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-  /* border: 2px solid red; */
-}
-nav a {
-  text-decoration: none;
-  color: white;
-  font-weight: 600;
-  padding-bottom: 5px;
-  font-size: 1vw;
-  border-bottom: 2px solid black;
-}
-nav a:hover {
-  border-bottom: 2px solid white;
-}
-nav a:active {
-  border: none;
-}
-.logo img {
-  /* border: 2px solid red; */
-  width: 18vw;
-}
-nav .links {
-  flex: 1;
-  padding-left: 6vw;
-  /* border: 2px solid red; */
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  gap: 2.5rem;
-  font-size: 1.3vw;
-}
-nav .links .contact-us {
-  padding: 0.5rem;
-  border: none;
-  /* border-radius: 10px; */
-  background-color: white;
-  color: black;
-}
-.hamberger {
-  cursor: pointer;
-  outline: none;
-  border: none;
-  font-size: 22px;
-  color: white;
-  display: none;
-  background-color: transparent;
-  position: fixed;
-  right: 1rem;
-  top: 1rem;
-  z-index: 50;
-}
-.hamberger:active {
-  font-size: 20px;
-}
-
-@media only screen and (max-width: 768px) {
-  .hamberger {
-    display: block;
-  }
-  nav .links {
-    display: none;
-  }
-}
-
-/* MOBNAV STYLE */
-
-.mobnav {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  background-color: white;
-  padding: 1.5rem;
-  position: fixed;
-  z-index: 40;
-  right: 0;
-  top: 0;
-  border-radius: 10px;
-  width: 250px;
-  gap: 1rem;
-  transform: translateX(250px);
-  transition: transform 250ms ease-in-out;
-}
-
-.mobnav a {
-  text-decoration: none;
-  color: black;
-  font-size: 14px;
-  padding: 5px;
-  border-radius: 10px;
-  /* border: 2px solid red; */
-  margin-right: 15px;
-}
-.mobnav a:hover {
-  background-color: black;
-  color: white;
-}
-.drawerClosed {
-  opacity: 0;
-  visibility: hidden;
-  transform: translateX(250px);
-  transition: opacity 250ms ease-in-out, visibility 250ms linear,
-    transform 250ms ease-in-out;
-}
-
-.drawerOpen {
-  transform: translateX(0px);
-  transition: transform 250ms ease-in-out;
-}
-
-@media only screen and (min-width: 769px) {
-  .mobnav {
-    display: none;
-  }
-}
-
 /* Hero */
 .hero {
   padding-bottom: 0;
@@ -327,22 +208,13 @@ footer {
   color: var(--theme-color);
   border-radius: 15px;
   padding: 1vw;
+  font-size: 2vw;
 }
-.side-social-media-links i {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 2px solid transparent;
-}
+
 .side-social-media-links i:hover {
-  border: 2px solid var(--theme-color);
+  color: black;
+  cursor: pointer;
 }
-
-.side-social-media-links i img {
-  width: 2vw;
-  height: 2vw;
-}
-
 footer .heading {
   text-align: center;
 }
@@ -401,7 +273,36 @@ footer .heading p {
 .footer-content .social {
   display: flex;
   flex-direction: column;
-  gap: 2vw;
+  gap: 1vw;
+}
+
+.footer-content .social .quick-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer-content .social .quick-links h3{
+  font-weight: 800;
+  font-size: 1.5vw;
+}
+.footer-content .social .quick-links ul {
+  width: 100%;
+  /* border: 2px solid red; */
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-content .social .quick-links ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 1.2vw;
+  border-bottom: 2px solid transparent;
+}
+.footer-content .social .quick-links ul li a:hover{
+  border-color: black;
 }
 .footer-content .social .clutch {
   display: flex;
@@ -411,35 +312,13 @@ footer .heading p {
   background-color: #fff;
   border: 2px solid #26333c;
 }
+.footer-content .social .clutch img{
+  width: 4vw;
+}
 
 .footer-content .social .clutch p {
   color: #26333c;
   text-transform: uppercase;
-  font-size: 1.5vw;
+  font-size: 1.3vw;
   font-weight: 600;
-}
-
-.footer-content .social .social-media-links {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 2vw;
-}
-.footer-content .social .social-media-links i {
-  padding: 1vw;
-  border-radius: 50%;
-  background-color: #fcfcfc;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.footer-content .social .social-media-links i img {
-  width: 2vw;
-  height: 2vw;
-}
-.footer-content .social .social-media-links p {
-  margin-left: -2vw;
-  color: #fcfcfc;
-  font-weight: 700;
-  font-size: 2vw;
 }

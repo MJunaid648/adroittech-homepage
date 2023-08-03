@@ -143,13 +143,13 @@ body {
     height: 12vw;
   }
   .cards .card h1 {
-    font-size: 2.5vw;
+    font-size: 3.5vw;
   }
   .cards .card p {
-    font-size: 2.2vw;
+    font-size: 3.2vw;
   }
   .cards .card button {
-    font-size: 2.2vw;
+    font-size: 3.2vw;
   }
 }
 

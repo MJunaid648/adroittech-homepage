@@ -14,12 +14,8 @@ body {
 }
 
 /* Hero */
-.hero {
-  padding-bottom: 0;
-}
-
 .hero-top {
-  padding-inline: 2rem;
+  padding-inline: 4vw;
   padding-right: 0;
   display: flex;
   justify-content: space-between;
@@ -33,10 +29,10 @@ body {
 }
 
 .hero-top .right {
-  padding: 1rem;
+  padding: 1.5vw;
   border: 2px solid white;
   border-right: none;
-  font-size: 1.2vw;
+  font-size: 1.8vw;
   line-height: 1;
   display: flex;
   justify-content: center;
@@ -46,6 +42,8 @@ body {
 .hero-main {
   position: relative;
   padding-inline: 2vw;
+
+  padding-left: 6vw;
   padding-bottom: 0;
   display: flex;
   justify-content: space-between;
@@ -68,7 +66,7 @@ body {
 .hero-main .vertical-text {
   margin-inline: auto;
   writing-mode: vertical-rl;
-  font-size: 1.5vw;
+  font-size: 1.8vw;
   font-family: Arial, sans-serif;
   transform: rotate(-180deg);
   align-self: flex-start;
@@ -85,7 +83,7 @@ body {
   flex-wrap: wrap;
 }
 .cards .card {
-  max-width: 40%;
+  max-width: 45%;
   border: 2px solid white;
   display: flex;
   gap: 2vw;
@@ -93,20 +91,20 @@ body {
   align-items: center;
   justify-content: center;
   padding: 2vw;
-  padding-top: 5vw;
+  padding-top: 7vw;
   border-radius: 15px;
   position: relative;
 }
 .cards .card img {
-  width: 6vw;
-  height: 7vw;
+  width: 8vw;
+  height: 9vw;
   object-fit: fill;
 }
 .cards .card h1 {
   display: inline-block;
   background-color: var(--theme-color);
   padding: 1vw;
-  font-size: 2vw;
+  font-size: 2.2vw;
   font-weight: 800;
   color: black;
   position: absolute;
@@ -115,14 +113,14 @@ body {
 }
 .cards .card p {
   text-align: center;
-  font-size: 1.4vw;
+  font-size: 1.8vw;
 }
 .cards .card button {
   border: none;
   border-radius: 15px;
   background-color: var(--theme-color);
   padding: 1vw;
-  font-size: 1.4vw;
+  font-size: 1.8vw;
   font-weight: 600;
   color: black;
   cursor: pointer;

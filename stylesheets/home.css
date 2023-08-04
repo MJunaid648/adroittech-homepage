@@ -425,36 +425,59 @@ body {
 /* ABout us */
 
 .about-us {
-  background-image: url("../assets/about-us-bg2.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-  padding: 0 2vw;
+  padding: 4vw 12vw;
+  padding-right: 4vw;
   padding-bottom: 6vw;
-  border: 2px solid red;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-around;
+  gap: 4vw;
+  align-items: center;
+  position: relative;
 }
-.about-us img {
-  display: none;
+.about-us img.oval-left {
+  width: auto;
+  height: 15vw;
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.about-us img.dot {
+  position: absolute;
+  width: auto;
+  height: 1.5vw;
+  z-index: -1;
+  right: 15vw;
+  top: 2vw;
+}
+
+.about-us img.oval-right {
+  position: absolute;
+  width: auto;
+  height: 15vw;
+  z-index: -1;
+  right: 0;
+  bottom: -4vw;
 }
 
 .about-us .content {
-  margin-top: 9vw;
-  margin-left: 8vw;
   display: flex;
   flex-direction: column;
   gap: 1vw;
-  max-width: 35vw;
+  max-width: 50%;
 }
 .about-us .content h1 {
-  font-size: 3.3vw;
+  font-size: 4vw;
 }
 .about-us .content h1 span {
   color: var(--theme-color);
-  font-size: 3.6vw;
+  font-size: 4.3vw;
 }
 
 .about-us .content p {
-  font-size: 1.3vw;
+  font-size: 1.8vw;
   font-weight: 600;
 }
 .about-us .content button {
@@ -462,39 +485,51 @@ body {
   border: none;
   padding: 0.5rem 1rem;
   font-weight: 600;
-  font-size: 1.2vw;
+  font-size: 1.8vw;
   color: white;
   background-color: var(--theme-color);
   cursor: pointer;
 }
+.about-us img.robot {
+  width: 30%;
+}
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
   .about-us {
-    background: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: auto;
+    padding: 2vw;
+    gap: 4vw;
   }
+  .about-us img.oval-left {
+    display: none;
+  }
+
+  .about-us img.dot {
+    display: none;
+  }
+
+  .about-us img.oval-right {
+    display: none;
+  }
+
   .about-us .content {
-    max-width: 55vw;
+    max-width: 60%;
   }
   .about-us .content h1 {
-    font-size: 3.8vw;
+    font-size: 5vw;
   }
   .about-us .content h1 span {
-    font-size: 4vw;
+    color: var(--theme-color);
+    font-size: 5.3vw;
   }
 
   .about-us .content p {
-    font-size: 2vw;
+    font-size: 2.5vw;
   }
   .about-us .content button {
-    font-size: 1.8vw;
+    font-size: 2.5vw;
   }
-  .about-us img {
-    display: block;
-    height: 40vw;
+  .about-us img.robot {
+    width: 40%;
   }
 }
 

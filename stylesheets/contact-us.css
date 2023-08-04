@@ -18,21 +18,33 @@ body {
 }
 
 .hero-top {
-  padding-inline: 2rem;
+  padding-inline: 4vw;
+
   padding-right: 0;
   display: flex;
   justify-content: space-between;
 }
-.hero-top .left {
+
+.hero-top .heading {
+  display: flex;
+  align-items: flex-end;
+}
+.hero-top .heading h1 {
   font-size: 5vw;
   font-weight: 900;
+  position: relative;
 }
-.hero-top .left span {
-  color: var(--theme-color);
+.hero-top .heading .square {
+  position: absolute;
+  left: 110%;
+  top: 55%;
+  width: 1.2vw;
+  height: 1.2vw;
+  background-color: var(--theme-color);
 }
 
 .hero-top .right {
-  padding: 1rem;
+  padding: 1.5vw;
   border: 2px solid white;
   border-right: none;
   font-size: 1.2vw;
@@ -50,27 +62,16 @@ body {
   display: flex;
   justify-content: space-between;
 }
-@media screen and (max-width: 768px) {
-  .hero-main img {
-    width: 80%;
-  }
-  .hero-main .content {
-    right: 0rem;
-    top: 0rem;
-  }
-}
-
 .hero-main img {
-  width: 80%;
+  width: 70%;
 }
 .hero-main .content {
   position: absolute;
   text-align: center;
-  right: 12vw;
-  top: 14vw;
+  right: 10vw;
+  top: 10vw;
   display: flex;
   flex-direction: column;
-  gap: 1vw;
 }
 .hero-main .vertical-text {
   margin-inline: auto;
@@ -117,17 +118,14 @@ body {
 .form-section {
   display: flex;
 }
-.form-section .img {
+.form-section .image {
   flex: 1;
-  padding: 2vw;
+  border: 2px solid;
   display: flex;
-  align-items: center;
   justify-content: center;
-  /* border: 2px solid red; */
-  font-size: 3.3vw;
-  font-weight: 900;
-  text-transform: uppercase;
-  letter-spacing: 1.5rem;
+}
+.form-section img {
+  width: auto;
 }
 .form-section .form {
   flex: 1;
@@ -137,7 +135,6 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 1vw;
-  /* border: 2px solid red; */
 }
 .form-section .form h1 {
   color: var(--theme-color);
@@ -282,7 +279,7 @@ footer .heading p {
   justify-content: center;
   align-items: center;
 }
-.footer-content .social .quick-links h3{
+.footer-content .social .quick-links h3 {
   font-weight: 800;
   font-size: 1.5vw;
 }
@@ -301,7 +298,7 @@ footer .heading p {
   font-size: 1.2vw;
   border-bottom: 2px solid transparent;
 }
-.footer-content .social .quick-links ul li a:hover{
+.footer-content .social .quick-links ul li a:hover {
   border-color: black;
 }
 .footer-content .social .clutch {
@@ -312,7 +309,7 @@ footer .heading p {
   background-color: #fff;
   border: 2px solid #26333c;
 }
-.footer-content .social .clutch img{
+.footer-content .social .clutch img {
   width: 4vw;
 }
 

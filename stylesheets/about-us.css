@@ -14,19 +14,15 @@ body {
 }
 
 /* Hero */
-.hero {
-  padding-bottom: 0;
-}
-
 .hero-top {
-  padding-inline: 2rem;
+  padding-inline: 4vw;
   padding-right: 0;
   display: flex;
   justify-content: flex-end;
 }
 
 .hero-top .right {
-  padding: 1rem;
+  padding: 1.5vw;
   border: 2px solid white;
   border-right: none;
   font-size: 1.2vw;

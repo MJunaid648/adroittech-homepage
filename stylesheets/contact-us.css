@@ -340,6 +340,9 @@ footer {
   font-size: 2vw;
   height: 15vw;
 }
+.side-social-media-links a{
+  color: var(--theme-color);
+}
 
 .side-social-media-links i:hover {
   color: black;

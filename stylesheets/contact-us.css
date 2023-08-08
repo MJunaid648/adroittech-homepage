@@ -362,6 +362,9 @@ footer .heading p {
   font-size: 2vw;
   text-transform: uppercase;
 }
+footer .mob-map {
+  display: none;
+}
 
 .footer-content {
   display: flex;
@@ -462,10 +465,11 @@ footer .heading p {
 
   .footer-content .contact div p {
     font-size: 2vw;
+    /* width: 75%; */
   }
   .map {
-    margin-left: -15vw;
-    margin-bottom: 1vw;
+    margin-left: 2vw;
+    /* margin-bottom: -5vw; */
     width: 25vw;
     margin-right: -2vw;
   }
@@ -514,6 +518,10 @@ footer .heading p {
 @media screen and (max-width: 480px) {
   footer {
     padding: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .side-social-media-links {
@@ -532,7 +540,6 @@ footer .heading p {
   footer .heading p {
     font-size: 2.5vw;
   }
-
   .footer-content {
     display: flex;
     flex-direction: column;
@@ -574,6 +581,16 @@ footer .heading p {
 
   .map {
     display: none;
+  }
+  footer .mob-map {
+    display: block;
+    width: 50vw;
+    margin: auto;
+    width: 96vw;
+    height: 25vw;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 1px solid black;
   }
   .footer-content .social {
     display: flex;

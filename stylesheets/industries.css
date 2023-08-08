@@ -40,7 +40,7 @@ body {
   /* border: 2px solid red; */
   position: relative;
   padding-right: 2vw;
-  padding-left: 6vw;
+  /* padding-left: 6vw; */
   padding-top: 2vw;
   padding-bottom: 5vw;
   display: flex;
@@ -51,7 +51,13 @@ body {
   display: flex;
   flex-direction: column;
 }
-.hero-main .content h1 {
+
+
+
+
+
+
+/* .hero-main .content h1 {
   font-size: 3.6vw;
   text-transform: uppercase;
   line-height: 3vw;
@@ -60,11 +66,37 @@ body {
   font-size: 2.5vw;
   font-weight: 500;
   letter-spacing: 0.9vw;
+} */
+
+
+
+/* temp */
+
+.hero-main .content h1 {
+  font-size: 3.6vw;
+  width: 65%;
+
+  text-transform: uppercase;
+  line-height: 3vw;
+  letter-spacing: 1vw;
+  line-height: 1.2;
 }
+.hero-main .content>p{
+  text-align: center;
+  width: 65%;
+  margin-top: 1vw;
+  /* border: 2px solid red; */
+/*  */
+}
+
+
+
+
+
 .hero-main img {
   width: 35%;
   position: absolute;
-  left: 40%;
+  left: 50%;
 }
 
 .hero-main .heading {

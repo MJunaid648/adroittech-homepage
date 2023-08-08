@@ -14,6 +14,9 @@ body {
 }
 
 /* Hero */
+.hero {
+  /* margin-top: 15vw; */
+}
 
 .hero-top {
   padding-inline: 4vw;
@@ -51,6 +54,7 @@ body {
   align-items: center;
   align-self: baseline;
 }
+
 .hero-main {
   position: relative;
   padding-inline: 2vw;
@@ -124,7 +128,7 @@ body {
     width: 2vw;
     height: 2vw;
   }
-  .hero-main{
+  .hero-main {
     /* justify-content: center; */
   }
   .hero-main img {
@@ -161,6 +165,7 @@ body {
     font-size: 2.2vw;
     line-height: 1.3;
   }
+
   .hero-main .vertical-text {
     display: none;
   }
@@ -192,7 +197,7 @@ body {
 
 /* STATS BANNER */
 .stats {
-  padding: 2vw 5vw;
+  padding: 0 5vw;
   box-shadow: rgba(235, 232, 232, 0.25) 0px 5px 65px,
     rgba(211, 204, 204, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(177, 173, 173, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -561,7 +566,6 @@ body {
   font-size: 1.8vw;
   font-weight: 600;
   text-align: justify;
-
 }
 .about-us .content button {
   align-self: flex-start;
@@ -816,7 +820,7 @@ footer {
   font-size: 2vw;
   height: 15vw;
 }
-.side-social-media-links a{
+.side-social-media-links a {
   color: var(--theme-color);
 }
 
@@ -879,9 +883,11 @@ footer .mob-map {
 }
 
 .map {
-  margin-left: -15vw;
+  margin-left: -10vw;
   margin-bottom: 1vw;
   width: 25vw;
+  border: 1px solid black;
+  border-radius: 15px;
 }
 .footer-content .social {
   display: flex;
@@ -947,7 +953,7 @@ footer .mob-map {
     /* width: 75%; */
   }
   .map {
-    margin-left: 2vw;
+    margin-left: 4vw;
     /* margin-bottom: -5vw; */
     width: 25vw;
     margin-right: -2vw;

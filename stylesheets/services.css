@@ -80,7 +80,6 @@ body {
   writing-mode: vertical-rl;
   font-size: 1.8vw;
   font-family: Arial, sans-serif;
-  transform: rotate(-180deg);
   align-self: flex-start;
 }
 

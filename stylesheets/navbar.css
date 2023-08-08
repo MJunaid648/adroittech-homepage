@@ -3,7 +3,8 @@ nav {
   display: flex;
   align-items: center;
   gap: 2vw;
-  /* border: 2px solid red; */
+  /* position: fixed; */
+  width: 100%;
 }
 nav a {
   text-decoration: none;
@@ -44,8 +45,8 @@ nav .links .contact-us {
   display: none;
   background-color: transparent;
   position: fixed;
-  right: 1vw;
-  top: 1vw;
+  right: 2vw;
+  top: 2vw;
   z-index: 50;
 }
 .hamberger:active {

@@ -11,6 +11,17 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: black;
   color: white;
+  padding-top: 6vw;
+}
+@media screen and (max-width: 768px) {
+  body {
+    padding-top: 8vw;
+  }
+}
+@media screen and (max-width: 480px) {
+  body {
+    padding-top: 10vw;
+  }
 }
 /* Hero */
 .hero {

@@ -11,6 +11,17 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: black;
   color: white;
+  padding-top: 6vw;
+}
+@media screen and (max-width: 768px) {
+  body {
+    padding-top: 8vw;
+  }
+}
+@media screen and (max-width: 480px) {
+  body {
+    padding-top: 10vw;
+  }
 }
 /* Hero */
 .hero-top {
@@ -195,7 +206,6 @@ body {
   }
 }
 
-
 /* FORM section */
 .form-section {
   display: flex;
@@ -339,7 +349,7 @@ footer {
   font-size: 2vw;
   height: 15vw;
 }
-.side-social-media-links a{
+.side-social-media-links a {
   color: var(--theme-color);
 }
 

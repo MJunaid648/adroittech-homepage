@@ -40,7 +40,7 @@ body {
   align-items: flex-end;
 }
 .hero-top .heading h1 {
-  font-size: 5vw;
+  font-size: 2.5vw;
   font-weight: 900;
   position: relative;
 }
@@ -48,8 +48,8 @@ body {
   position: absolute;
   left: 110%;
   top: 55%;
-  width: 1.2vw;
-  height: 1.2vw;
+  width: 0.6vw;
+  height: 0.6vw;
   background-color: var(--theme-color);
 }
 
@@ -57,7 +57,7 @@ body {
   padding: 1.5vw;
   border: 2px solid white;
   border-right: none;
-  font-size: 1.8vw;
+  font-size: 0.9vw;
   line-height: 1;
   display: flex;
   justify-content: center;
@@ -128,15 +128,15 @@ body {
 
 @media screen and (max-width: 768px) and (min-width: 480px) {
   .hero-top .right {
-    font-size: 2vw;
+    font-size: 1.8vw;
     line-height: 1.3;
   }
   .hero-top .heading h1 {
-    font-size: 6vw;
+    font-size: 3vw;
   }
   .hero-top .heading .square {
-    width: 2vw;
-    height: 2vw;
+    width: 1vw;
+    height: 1vw;
   }
   .hero-main {
     /* justify-content: center; */
@@ -164,11 +164,11 @@ body {
 
 @media screen and (max-width: 480px) {
   .hero-top .heading h1 {
-    font-size: 10vw;
+    font-size: 5vw;
   }
   .hero-top .heading .square {
-    width: 2.5vw;
-    height: 2.5vw;
+    width: 1.8vw;
+    height: 1.8vw;
   }
 
   .hero-top .right {

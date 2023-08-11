@@ -18,6 +18,8 @@
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link rel="icon" href="./assets/favicon.png" type="image/x-icon">
     <!-- CSS stylesheet -->
     <link rel="stylesheet" href="stylesheets/contact-us.css" />
     <link rel="stylesheet" href="stylesheets/navbar.css" />
@@ -41,13 +43,15 @@
     <!-- Navbar -->
     <nav>
       <div class="logo">
-        <a href="./index.html"><img src="./assets/logo.png" alt="Adroittech logo" /></a>
+        <a href="./index.html"
+          ><img src="./assets/logo.png" alt="Adroittech logo"
+        /></a>
       </div>
       <div class="links">
         <a href="./index.html">HOME</a>
         <a href="./about-us.html">ABOUT</a>
         <a href="./services.html">SERVICES</a>
-        <a >Blog</a>
+        <a>Blog</a>
         <a class="contact-us" href="./contact-us.html">CONTACT US</a>
       </div>
       <button class="hamberger" onclick="hamClick()">
@@ -57,9 +61,9 @@
 
     <div class="mobnav drawerClosed">
       <a href="./index.html">HOME</a>
-        <a href="./about-us.html">ABOUT</a>
-        <a href="./services.html">SERVICES</a>
-        <a >Blog</a>
+      <a href="./about-us.html">ABOUT</a>
+      <a href="./services.html">SERVICES</a>
+      <a>Blog</a>
       <a href="./contact-us.html">CONTACT US</a>
     </div>
 
@@ -72,9 +76,7 @@
             <div class="square"></div>
           </h1>
         </div>
-        <div class="right">
-          Custom Software Development
-        </div>
+        <div class="right">Custom Software Development</div>
       </div>
       <div class="hero-main">
         <img src="./assets/contact-1.png" alt="" />
@@ -110,15 +112,14 @@
 
     <!-- FORM -->
     <div class="form-section">
-      <div class="image">
-      </div>
+      <div class="image"></div>
       <div class="form">
         <h1>Get in touch</h1>
         <p>
           for any queries, concerns and/or suggestions, please feel free to
           contact us!
         </p>
-        <form action="POST">
+        <form>
           <input type="text" placeholder="FULL NAME" name="full-name" />
           <input type="email" placeholder="EMAIL ADDRESS" name="email" />
           <input type="tel" placeholder="CONTACT NUMBER" name="contact-num" />
@@ -129,8 +130,8 @@
             cols="30"
             rows="10"
           ></textarea>
-          <button type="submit">Send message</button>
         </form>
+        <button onclick="showModal()" class="formBtn">Send message</button>
       </div>
     </div>
 
@@ -160,8 +161,7 @@
         </h1>
         <p>Join us now</p>
       </div>
-      <img src="./assets/map.png" alt="our location" class="mob-map"
-        />
+      <img src="./assets/map.png" alt="our location" class="mob-map" />
 
       <div class="footer-content">
         <div class="contact">
@@ -206,7 +206,17 @@
       </div>
     </footer>
 
+    <!-- Modal -->
+    <div class="modal close" id="myModal">
+      <div class="message-box">
+        <h1>Done &#x2713;</h1>
+        <p>Thank you for contacting us! We will get in touch with you soon!</p>
+        <button class="okayBtn">Okay</button>
+      </div>
+    </div>
+
     <!-- SCRIPTS -->
     <script src="scripts/navbar.js"></script>
+    <script src="scripts/contact-us.js"></script>
   </body>
 </html>

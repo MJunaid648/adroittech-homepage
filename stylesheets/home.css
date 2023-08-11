@@ -24,10 +24,6 @@ body {
   }
 }
 /* Hero */
-.hero {
-  /* margin-top: 15vw; */
-}
-
 .hero-top {
   padding-inline: 4vw;
   padding-right: 0;
@@ -173,7 +169,6 @@ body {
 
   .hero-top .right {
     font-size: 2.2vw;
-    line-height: 1.3;
   }
 
   .hero-main .vertical-text {
@@ -731,6 +726,7 @@ body {
 }
 .video video {
   width: 80vw;
+  border: none;
 }
 
 .video .vertical-text {

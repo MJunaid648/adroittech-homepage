@@ -50,11 +50,11 @@
   border-radius: 10px;
 }
 
-button.accept-button:hover {
+button.essential-button:hover {
   color: green;
 }
 
-button.accept-button:active {
+button.essential-button:active {
   color: black;
 }
 button.reject-button:hover {

@@ -43,17 +43,15 @@ body {
   padding: 1.5vw;
   border: 2px solid white;
   border-right: none;
-  font-size: 1.8vw;
+  font-size: 0.9vw;
   line-height: 1;
   display: flex;
   justify-content: center;
   align-items: center;
-  align-self: baseline; 
-  
+  align-self: baseline;
 }
 
 .hero-main {
-  /* border: 2px solid red; */
   position: relative;
   padding: 0 2vw;
   padding-right: 20%;
@@ -66,9 +64,6 @@ body {
   flex-direction: column;
   padding: 2vw 0;
 }
-
-
-
 
 .hero-main .content .heading {
   display: flex;
@@ -97,7 +92,6 @@ body {
   width: 50%;
 }
 @media screen and (max-width: 768px) and (min-width: 480px) {
- 
   .hero-main .content .heading h1 {
     font-size: 6vw;
   }
@@ -107,20 +101,17 @@ body {
     text-transform: uppercase;
   }
   .hero-top .right {
-    font-size: 2vw;
+    font-size: 1.8vw;
     line-height: 1.3;
   }
 }
 
-
 @media screen and (max-width: 480px) {
-
-  .hero-main{
+  .hero-main {
     justify-content: space-between;
     gap: 10vw;
-
   }
-  .hero-main .content{
+  .hero-main .content {
     width: 60%;
   }
   .hero-main .content .heading h1 {
@@ -136,7 +127,6 @@ body {
   }
   .hero-top .right {
     font-size: 2.2vw;
-    line-height: 1.3;
   }
 }
 
@@ -224,7 +214,6 @@ body {
   }
 }
 
-
 @media screen and (max-width: 480px) {
   .about .about-top .vertical-text {
     font-size: 3.5vw;
@@ -291,7 +280,7 @@ body {
 .our-mission .content img {
   width: 30%;
 }
-@media screen and (max-width: 768px) and (min-width:480px){
+@media screen and (max-width: 768px) and (min-width: 480px) {
   .section .content .text h1 {
     font-size: 5vw;
   }
@@ -350,7 +339,6 @@ body {
   width: 25vw;
 }
 
-
 /* Footer */
 
 footer {
@@ -376,7 +364,7 @@ footer {
   font-size: 2vw;
   height: 15vw;
 }
-.side-social-media-links a{
+.side-social-media-links a {
   color: var(--theme-color);
 }
 

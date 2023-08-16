@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
   <head>
     <!-- Google Tag Manager -->
     <script>
@@ -21,6 +21,7 @@
     <!-- Favicon -->
     <link rel="icon" href="./assets/favicon.png" type="image/x-icon" />
     <!-- CSS stylesheet -->
+    <link rel="stylesheet" href="stylesheets/preloader.css">
     <link rel="stylesheet" href="stylesheets/home.css" />
     <link rel="stylesheet" href="stylesheets/cookie.css" />
     <link rel="stylesheet" href="stylesheets/navbar.css" />
@@ -65,6 +66,9 @@
     <title>Adroittech</title>
   </head>
   <body>
+    <!-- Preloader -->
+    <div id="preloader"></div>
+
     <!-- Navbar -->
     <nav>
       <div class="logo">
@@ -187,6 +191,18 @@
           <div class="card">
             <div class="card-top"><span>.01</span></div>
             <div class="card-main">
+              <div class="card-header">UI/UX Design</div>
+              <hr />
+              <p class="card-desc">
+                Boost User Experiences: Crafting Engaging Interfaces that
+                Captivate, Connect, and Inspire.
+              </p>
+              <a href="./services.html#ui-ux"><button>Learn More</button></a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-top"><span>.02</span></div>
+            <div class="card-main">
               <div class="card-header">Development</div>
               <hr />
               <p class="card-desc">
@@ -198,30 +214,17 @@
           </div>
 
           <div class="card">
-            <div class="card-top"><span>.02</span></div>
-            <div class="card-main">
-              <div class="card-header">Digital<br />Marketing</div>
-              <hr />
-              <p class="card-desc">
-                Boost User Experiences: Crafting Engaging Interfaces that
-                Captivate, Connect, and Inspire.
-              </p>
-              <a href="./services.html#digital-marketing"
-                ><button>Learn More</button></a
-              >
-            </div>
-          </div>
-
-          <div class="card">
             <div class="card-top"><span>.03</span></div>
             <div class="card-main">
-              <div class="card-header">UI/UX Design</div>
+              <div class="card-header">Digital<br />Marketing</div>
               <hr />
               <p class="card-desc">
                 Empowering businesses with impactful strategies for amplified
                 sales and unforgettable brand image.
               </p>
-              <a href="./services.html#ui-ux"><button>Learn More</button></a>
+              <a href="./services.html#digital-marketing"
+                ><button>Learn More</button></a
+              >
             </div>
           </div>
         </div>
@@ -401,6 +404,7 @@
 
     <!-- SCRIPTS -->
     <script src="scripts/navbar.js"></script>
+    <script src="scripts/preloader.js"></script>
 
     <!-- SLICK SCRIPTS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>

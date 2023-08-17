@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pure CSS logo slider</title>
+  </head>
+  <body>
+    <section>
+      <h1>Our Partners</h1>
+      <div class="slider">
+        <ul class="brands">
+          <li class="brand-logo"><iconify-icon icon="logos:sap"></iconify-icon></li>  
+          <li class="brand-logo"><iconify-icon icon="logos:python"></iconify-icon>          </li>
+          <li class="brand-logo"><iconify-icon icon="logos:python"></iconify-icon></li>
+          <li class="brand-logo"><iconify-icon icon="logos:javascript"></iconify-icon>          </li>
+          <li class="brand-logo"><iconify-icon icon="akar-icons:php-fill"></iconify-icon>          </li>
+          <li class="brand-logo"><iconify-icon icon="clarity:ci-cd-line"></iconify-icon>          </li>
+          <li class="brand-logo"><iconify-icon icon="logos:kubernetes"></iconify-icon>          </li>
+          <li class="brand-logo"><iconify-icon icon="logos:google-cloud"></iconify-icon>          </li>
+          <li class="brand-logo"><iconify-icon icon="logos:aws"></iconify-icon>          </li>
+          <li class="brand-logo"><iconify-icon icon="devicon:azure-wordmark"></iconify-icon></li>
+          <li class="brand-logo"><iconify-icon icon="logos:angular-icon"></iconify-icon></li>
+          <li class="brand-logo"><iconify-icon icon="logos:django"></iconify-icon></li>
+          <li class="brand-logo"><iconify-icon icon="logos:react"></iconify-icon></li>
+          <li class="brand-logo"><iconify-icon icon="logos:nodejs"></iconify-icon></li>
+          <li class="brand-logo"><iconify-icon icon="simple-icons:flask"></iconify-icon></li>
+          <li class="brand-logo"><iconify-icon icon="bi:github"></iconify-icon></li>
+          <li class="brand-logo"><iconify-icon icon="logos:jenkins"></iconify-icon></li>
+          <li class="brand-logo"><iconify-icon icon="logos:docker"></iconify-icon></li>
+          <li class="brand-logo"><iconify-icon icon="skill-icons:selenium"></iconify-icon></li>
+          <!--  -->
+          <li class="brand-logo"><iconify-icon icon="logos:sap"></iconify-icon></li>
+          <li class="brand-logo">            <iconify-icon icon="logos:python"></iconify-icon>          </li>
+          <li class="brand-logo"><iconify-icon icon="logos:python"></iconify-icon></li>
+          <li class="brand-logo"><iconify-icon icon="logos:javascript"></iconify-icon>          </li>
+          <li class="brand-logo"><iconify-icon icon="akar-icons:php-fill"></iconify-icon>          </li>
+          <li class="brand-logo"><iconify-icon icon="clarity:ci-cd-line"></iconify-icon>          </li>
+          <li class="brand-logo"><iconify-icon icon="logos:kubernetes"></iconify-icon>          </li>
+          <li class="brand-logo"><iconify-icon icon="logos:google-cloud"></iconify-icon>          </li>
+          <li class="brand-logo"><iconify-icon icon="logos:aws"></iconify-icon>          </li>
+          <li class="brand-logo"><iconify-icon icon="devicon:azure-wordmark"></iconify-icon></li>
+          <li class="brand-logo"><iconify-icon icon="logos:angular-icon"></iconify-icon></li>
+          <li class="brand-logo"><iconify-icon icon="logos:django"></iconify-icon></li>
+          <li class="brand-logo"><iconify-icon icon="logos:react"></iconify-icon></li>
+          <li class="brand-logo"><iconify-icon icon="logos:nodejs"></iconify-icon></li>
+          <li class="brand-logo"><iconify-icon icon="simple-icons:flask"></iconify-icon></li>
+          <li class="brand-logo"><iconify-icon icon="bi:github"></iconify-icon></li>
+          <li class="brand-logo"><iconify-icon icon="logos:jenkins"></iconify-icon></li>
+          <li class="brand-logo"><iconify-icon icon="logos:docker"></iconify-icon></li>
+          <li class="brand-logo"><iconify-icon icon="skill-icons:selenium"></iconify-icon></li>
+         
+        </ul>
+      </div>
+    </section>
+
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"
+    ></script>
+    <script>
+      const brands = document.querySelector("ul.brands"),
+        total_brands = brands.children.length;
+      document.documentElement.style.setProperty(
+        "--total-brands",
+        total_brands
+      );
+
+      for (let i = 0; i < total_brands; i++) {
+        brands.appendChild(brands.children[i].cloneNode(true));
+      }
+    </script>
+  </body>
+</html>

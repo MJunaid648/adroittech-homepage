@@ -14,5 +14,4 @@ function hamClick() {
     mobNav.classList.remove("drawerClosed");
   }
 
-  console.log(mobNav.classList);
 }

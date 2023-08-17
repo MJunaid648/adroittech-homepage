@@ -31,30 +31,6 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
-    <!-- Slick stylesheets -->
-    <link rel="stylesheet" href="slick-master/slick/slick.css" />
-    <link rel="stylesheet" href="slick-master/slick/slick-theme.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
-      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
-      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
-      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
 
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -297,24 +273,69 @@
       </div>
     </div>
 
-    <!-- Carousel -->
-    <div class="carousel">
-      <div class="tools">
-        <h2>Tools we employ</h2>
+    <!-- Logo Slider -->
+    <section>
+      <h1>Tools we employ</h1>
+      <div class="slider">
+        <ul class="brands">
+          <li class="brand-logo"><iconify-icon icon="logos:sap"></iconify-icon></li>  
+          <li class="brand-logo"><iconify-icon icon="logos:python"></iconify-icon></li>
+          <li class="brand-logo"><iconify-icon icon="logos:javascript"></iconify-icon>          </li>
+          <li class="brand-logo"><iconify-icon icon="akar-icons:php-fill"></iconify-icon>          </li>
+          <li class="brand-logo"><iconify-icon icon="clarity:ci-cd-line"></iconify-icon>          </li>
+          <li class="brand-logo"><iconify-icon icon="logos:kubernetes"></iconify-icon>          </li>
+          <li class="brand-logo"><iconify-icon icon="logos:google-cloud"></iconify-icon>          </li>
+          <li class="brand-logo"><iconify-icon icon="skill-icons:aws-dark" style="color: white;"></iconify-icon>        </li>
+          <li class="brand-logo"><iconify-icon icon="devicon:azure"></iconify-icon></li>
+          <li class="brand-logo"><iconify-icon icon="logos:angular-icon"></iconify-icon></li>
+          <li class="brand-logo"><iconify-icon icon="devicon-plain:django-wordmark" style="color: green;" width="70" height="70"></iconify-icon></li>
+          <li class="brand-logo"><iconify-icon icon="logos:react"></iconify-icon></li>
+          <li class="brand-logo"><iconify-icon icon="logos:nodejs"></iconify-icon></li>
+          <li class="brand-logo"><iconify-icon icon="simple-icons:flask"></iconify-icon></li>
+          <li class="brand-logo"><iconify-icon icon="bi:github"></iconify-icon></li>
+          <li class="brand-logo"><iconify-icon icon="devicon:jenkins"></iconify-icon></li>
+          <li class="brand-logo"><iconify-icon icon="logos:docker"></iconify-icon></li>
+          <li class="brand-logo"><iconify-icon icon="skill-icons:selenium"></iconify-icon></li>
+          <!--  -->
+          <li class="brand-logo"><iconify-icon icon="logos:sap"></iconify-icon></li>  
+          <li class="brand-logo"><iconify-icon icon="logos:python"></iconify-icon></li>
+          <li class="brand-logo"><iconify-icon icon="logos:javascript"></iconify-icon>          </li>
+          <li class="brand-logo"><iconify-icon icon="akar-icons:php-fill"></iconify-icon>          </li>
+          <li class="brand-logo"><iconify-icon icon="clarity:ci-cd-line"></iconify-icon>          </li>
+          <li class="brand-logo"><iconify-icon icon="logos:kubernetes"></iconify-icon>          </li>
+          <li class="brand-logo"><iconify-icon icon="logos:google-cloud"></iconify-icon>          </li>
+          <li class="brand-logo"><iconify-icon icon="skill-icons:aws-dark" style="color: white;"></iconify-icon>        </li>
+          <li class="brand-logo"><iconify-icon icon="devicon:azure"></iconify-icon></li>
+          <li class="brand-logo"><iconify-icon icon="logos:angular-icon"></iconify-icon></li>
+          <li class="brand-logo"><iconify-icon icon="devicon-plain:django-wordmark" style="color: green;" width="70" height="70"></iconify-icon></li>
+          <li class="brand-logo"><iconify-icon icon="logos:react"></iconify-icon></li>
+          <li class="brand-logo"><iconify-icon icon="logos:nodejs"></iconify-icon></li>
+          <li class="brand-logo"><iconify-icon icon="simple-icons:flask"></iconify-icon></li>
+          <li class="brand-logo"><iconify-icon icon="bi:github"></iconify-icon></li>
+          <li class="brand-logo"><iconify-icon icon="devicon:jenkins"></iconify-icon></li>
+          <li class="brand-logo"><iconify-icon icon="logos:docker"></iconify-icon></li>
+          <li class="brand-logo"><iconify-icon icon="skill-icons:selenium"></iconify-icon></li>
+         
+        </ul>
       </div>
+    </section>
 
-      <div class="slider-container">
-        <div class="slider">
-          <h1 class="slide-item">SAP Fiori</h1>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"
+    ></script>
+    <script>
+      const brands = document.querySelector("ul.brands"),
+        total_brands = brands.children.length;
+      document.documentElement.style.setProperty(
+        "--total-brands",
+        total_brands
+      );
 
-          <h1 class="slide-item">javascript</h1>
-          <h1 class="slide-item">Python</h1>
-          <h1 class="slide-item">SQL Databases</h1>
-          <h1 class="slide-item">CI/CD</h1>
-          <h1 class="slide-item">Kubernetes</h1>
-        </div>
-      </div>
-    </div>
+      for (let i = 0; i < total_brands; i++) {
+        brands.appendChild(brands.children[i].cloneNode(true));
+      }
+    </script>
 
     <!-- Footer -->
     <footer>
@@ -387,7 +408,7 @@
       </div>
     </footer>
     <!-- Cookie-->
-    <div class="cookie-popup">
+    <div class="cookie-popup open">
       <div class="text">
         <h2>We care about your privacy.</h2>
         <p>
@@ -396,64 +417,15 @@
           you consent to our use of cookies.
         </p>
       </div>
-      <dib class="btns">
-        <button class="essential-button">Essential Only</button>
-        <button class="reject-button">Reject All</button>
-      </dib>
+      <div class="btns">
+        <button class="essential-button close-btn">Essential Only</button>
+        <button class="reject-button close-btn">Reject All</button>
+      </div>
     </div>
 
     <!-- SCRIPTS -->
     <script src="scripts/navbar.js"></script>
+    <script src="scripts/home.js"></script>
     <script src="scripts/preloader.js"></script>
-
-    <!-- SLICK SCRIPTS -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
-      integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-    <script type="text/javascript">
-      $(".slider").slick({
-        //   dots: true,
-        arrows: true,
-        prevArrow:
-          '<button class="slide-arrow prev-arrow"><i class="fa-solid fa-chevron-left"></i></button>',
-        nextArrow:
-          '<button class="slide-arrow next-arrow"><i class="fa-solid fa-chevron-right"></i></button>',
-        infinite: true,
-        autoplay: true,
-        speed: 1500,
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        responsive: [
-          {
-            breakpoint: 1024,
-            settings: {
-              slidesToShow: 4,
-              slidesToScroll: 3,
-              infinite: true,
-            },
-          },
-          {
-            breakpoint: 600,
-            settings: {
-              slidesToShow: 3,
-              slidesToScroll: 2,
-              infinite: true,
-            },
-          },
-          {
-            breakpoint: 480,
-            settings: {
-              slidesToShow: 3,
-              slidesToScroll: 1,
-              infinite: true,
-            },
-          },
-        ],
-      });
-    </script>
   </body>
 </html>

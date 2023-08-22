@@ -32,7 +32,9 @@ nav .links a:active {
   border: none;
 }
 .logo img {
-  width: 22vw;
+  width: 15vw;
+  /* changed */
+  margin-right: 10vw;
 }
 
 nav .links a.contact-us {

@@ -27,7 +27,6 @@ body {
     padding-top: 10vw;
   }
 }
-/* Preloader */
 
 /* Hero */
 .hero-top {
@@ -767,7 +766,7 @@ section h1 {
 
 .slider {
   position: relative;
-  width: 100vw;
+  width: 100%;
   /* height: 12rem; */
   padding: 2rem 0;
 
@@ -800,7 +799,6 @@ ul.brands li.brand-logo {
   text-align: center;
   margin-left: 3rem;
 }
-
 
 /* Side Social Media Links */
 .side-social-media-links {

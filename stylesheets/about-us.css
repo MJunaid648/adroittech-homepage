@@ -176,7 +176,6 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  /* border: 2px solid red; */
 }
 .about .about-top .heading h1 {
   font-size: 8vw;
@@ -188,7 +187,6 @@ body {
   color: var(--theme-color);
   font-size: 12vw;
   font-weight: 800;
-  /* border: 2px solid green; */
   margin-bottom: -1rem;
 }
 .square {
@@ -219,11 +217,11 @@ body {
     font-size: 3.5vw;
   }
   .about p {
-    font-size: 2.8vw;
+    font-size: 3.8vw;
   }
 }
 
-/* OUR MISION */
+/* text style combined */
 .section {
   padding: 3vw 5vw;
 }
@@ -238,7 +236,7 @@ body {
 }
 .section .content .text h1 {
   color: var(--theme-color);
-  font-size: 3.5vw;
+  font-size: 4vw;
   font-weight: 900;
 }
 .section .content .text p {
@@ -255,6 +253,36 @@ body {
   margin: auto;
   margin-top: 2vw;
 }
+
+@media screen and (max-width: 768px) and (min-width: 481px) {
+  .section .content .text h1 {
+    font-size: 5vw;
+  }
+  .section .content .text p {
+    font-size: 2.5vw;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .section .content .text h1 {
+    font-size: 6vw;
+    text-align: center;
+  }
+  .section .content .text p {
+    font-size: 3.8vw;
+  }
+
+  .our-mission .content img,
+  .our-vision .content img,
+  .company-culture .right img {
+    display: none;
+  }
+  .section .content .text {
+    width: 100%;
+    text-align: justify;
+  }
+}
+/* OUR MISION */
 
 .our-mission {
   position: relative;
@@ -279,23 +307,6 @@ body {
 
 .our-mission .content img {
   width: 30%;
-}
-@media screen and (max-width: 768px) and (min-width: 480px) {
-  .section .content .text h1 {
-    font-size: 5vw;
-  }
-  .section .content .text p {
-    font-size: 2vw;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .section .content .text h1 {
-    font-size: 5.5vw;
-  }
-  .section .content .text p {
-    font-size: 2.5vw;
-  }
 }
 
 /* Our Vision */
@@ -339,7 +350,6 @@ body {
   width: 25vw;
 }
 
-
 /* Side Social Media Links */
 .side-social-media-links {
   position: absolute;
@@ -378,5 +388,11 @@ body {
     font-size: 3.3vw;
     height: 20vw;
     top: -9vw;
+  }
+  .company-culture .text {
+    padding: 3vw 5vw;
+  }
+  .company-culture .right {
+    display: none;
   }
 }

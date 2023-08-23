@@ -249,11 +249,11 @@ body {
   text-align: center;
 }
 .content h1 {
-  font-size: 4.5vw;
+  font-size: 4vw;
   font-weight: 900;
 }
 .content p {
-  font-size: 2vw;
+  font-size: 1.8vw;
   font-weight: 600;
   text-align: justify;
 }
@@ -291,20 +291,20 @@ body {
 
 @media screen and (max-width: 480px) {
   .content h1 {
-    font-size: 7vw;
+    font-size: 6vw;
   }
   .content p {
-    font-size: 3.5vw;
+    font-size: 3.8vw;
     margin-top: 2vw;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) and (min-width: 480px) {
   .content h1 {
-    font-size: 7vw;
+    font-size: 5vw;
   }
   .content p {
-    font-size: 3.5vw;
+    font-size: 2.8vw;
     margin-top: 2vw;
   }
 }
@@ -442,7 +442,6 @@ body {
     font-size: 3.3vw;
   }
 }
-
 
 /* Side Social Media Links */
 .side-social-media-links {

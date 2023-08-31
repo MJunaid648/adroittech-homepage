@@ -9,6 +9,8 @@
 body {
   background: #000;
   color: white;
+  font-family: "Poppins", sans-serif;
+
 }
 .accordian {
   width: 85%;
@@ -55,12 +57,14 @@ body {
 }
 
 .accordian .content-container.active .question {
-  font-size: 18px;
+  font-size: 24px;
+  font-weight: 600;
   transition: 0.5s;
 }
 
 .accordian .content-container.active .question::after {
   content: "-";
+
   font-size: 30px;
   transition: 0.5s;
 }
@@ -80,7 +84,7 @@ body {
   border-radius: 15px;
   padding: 2vw 1vw;
   font-size: 2vw;
-  height: 15vw;
+  height: fit-content;
 }
 .side-social-media-links a {
   color: var(--theme-color);
@@ -101,7 +105,6 @@ body {
   .side-social-media-links {
     padding: 3vw 2vw;
     font-size: 3.3vw;
-    height: 20vw;
     top: -9vw;
   }
 }

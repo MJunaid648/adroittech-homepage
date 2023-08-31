@@ -134,7 +134,6 @@ body {
 .about {
   padding: 8vw 1.5rem;
   padding-bottom: 0;
-  /* border: 2px solid red; */
 }
 
 .about-top {
@@ -365,7 +364,7 @@ body {
   border-radius: 15px;
   padding: 2vw 1vw;
   font-size: 2vw;
-  height: 15vw;
+  height: fit-content;
 }
 .side-social-media-links a {
   color: var(--theme-color);
@@ -386,7 +385,6 @@ body {
   .side-social-media-links {
     padding: 3vw 2vw;
     font-size: 3.3vw;
-    height: 20vw;
     top: -9vw;
   }
   .company-culture .text {

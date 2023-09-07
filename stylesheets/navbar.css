@@ -8,19 +8,17 @@ nav {
   width: 100%;
   position: fixed;
   top: 0;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 nav .links {
-  flex: 1;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  gap: 2vw;
+  gap: 4vw;
 }
 nav .links a {
   text-decoration: none;
   color: white;
-  font-weight: 600;
   padding-bottom: 5px;
   font-size: 1.2vw;
   border-bottom: 2px solid transparent;
@@ -30,6 +28,9 @@ nav .links a:hover {
 }
 nav .links a:active {
   border: none;
+}
+nav div.logo {
+  margin-right: auto;
 }
 .logo img {
   width: 15vw;
@@ -55,7 +56,7 @@ nav .links a.contact-us {
   position: fixed;
   right: 2vw;
   top: 2vw;
-  z-index: 60;
+  z-index: 100;
 }
 .hamberger:active {
   font-size: 20px;
@@ -83,7 +84,7 @@ nav .links a.contact-us {
   padding: 1.5vw;
   padding-top: 6vw;
   position: fixed;
-  z-index: 60;
+  z-index: 55;
   right: 0;
   top: 0;
   border-bottom-left-radius: 10px;
@@ -116,6 +117,7 @@ nav .links a.contact-us {
 .drawerOpen {
   transform: translateX(0px);
   transition: transform 250ms ease-in-out;
+  z-index: 60;
 }
 
 @media only screen and (min-width: 768px) {

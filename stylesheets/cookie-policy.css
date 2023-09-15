@@ -1,0 +1,158 @@
+:root {
+  --theme-color: #b960fd;
+  --total-brands: 12;
+  --logo-width: 12rem;
+  --total-logos-width: calc(var(--total-brands) * var(--logo-width) * 2);
+  --animation-duration: calc(var(--total-brands) * 1.5s);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: black;
+  color: white;
+  padding-top:2vw;
+}
+
+main {
+  padding: 2vw 4vw;
+  display: flex;
+  flex-direction: column;
+}
+main > img {
+  display: none;
+  margin-left: auto;
+  width: 20vw;
+}
+main h1 {
+  text-align: center;
+  font-size: 2.5vw;
+}
+main h2 {
+  font-size: 1.7vw;
+}
+main p {
+  font-size: 1.4vw;
+  text-align: justify;
+}
+a {
+  color: white;
+}
+p.email span {
+  font-size: 1.5vw;
+  font-weight: 600;
+}
+
+table {
+  width: 80%;
+  border-collapse: collapse;
+  border-color: white;
+  margin: 1.5vw auto;
+}
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+th {
+  background-color: #f2f2f2;
+  color: black;
+}
+ul {
+  list-style: decimal;
+  padding: 0 3vw;
+}
+li {
+  font-size: 1.4vw;
+  text-align: justify;
+}
+li span {
+  font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    padding-top: 8vw;
+  }
+
+  
+main {
+  padding: 2vw 4vw;
+  display: flex;
+  flex-direction: column;
+}
+main > img {
+  display: none;
+  margin-left: auto;
+  width: 20vw;
+}
+main h1 {
+  text-align: center;
+  font-size: 2.5vw;
+}
+main h2 {
+  font-size: 1.7vw;
+}
+main p {
+  font-size: 1.4vw;
+  text-align: justify;
+}
+a {
+  color: white;
+}
+p.email span {
+  font-size: 1.5vw;
+  font-weight: 600;
+}
+
+table {
+  width: 80%;
+  border-collapse: collapse;
+  border-color: white;
+  margin: 1.5vw auto;
+}
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+th {
+  background-color: #f2f2f2;
+  color: black;
+}
+ul {
+  list-style: decimal;
+  padding: 0 3vw;
+}
+li {
+  font-size: 1.4vw;
+  text-align: justify;
+}
+li span {
+  font-weight: 600;
+}
+
+
+
+  table {
+    border: 1px solid #ccc;
+  }
+  th,
+  td {
+    width: 100%;
+    display: block;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    padding-top: 10vw;
+  }
+}

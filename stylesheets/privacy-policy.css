@@ -89,15 +89,6 @@ li span {
   p span {
     font-size: 2.5vw;
   }
-
-  table {
-    width: 100%;
-  }
-  th,
-  td {
-    font-size: 2.5vw;
-    padding: 1vw;
-  }
   ul {
     padding: 0 5vw;
   }
@@ -123,15 +114,6 @@ li span {
     font-size: 3.5vw;
   }
   p span {
-    font-size: 3.5vw;
-  }
-
-  table {
-    width: 100%;
-  }
-  th,
-  td {
-    padding: 1vw;
     font-size: 3.5vw;
   }
   li {

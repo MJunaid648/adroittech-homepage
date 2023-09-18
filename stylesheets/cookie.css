@@ -17,9 +17,8 @@
 .open {
   animation: slideUp 1.5s ease-in-out forwards;
 }
-.close{
+.close {
   animation: slideDown 1.5s ease-in-out backwards;
-
 }
 @keyframes slideUp {
   0% {
@@ -37,8 +36,6 @@
     bottom: -100%;
   }
 }
-
-
 .text {
   width: 65%;
 }

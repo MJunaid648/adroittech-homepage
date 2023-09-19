@@ -25,16 +25,17 @@ footer .heading p {
 footer .mob-map {
   display: none;
 }
-
 .footer-content {
   display: flex;
   gap: 5vw;
-  align-items: center;
+  
   padding: 0 2vw;
 }
 .footer-content .contact {
+  /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   gap: 2vw;
 }
 .footer-content .contact div {
@@ -58,17 +59,19 @@ footer .mob-map {
   width: 2vw;
   height: 2vw;
 }
-
 .map {
+  align-self: center;
   margin-left: -10vw;
-  margin-bottom: 1vw;
+  margin-top: 3vw;
   width: 25vw;
   border: 1px solid black;
   border-radius: 15px;
 }
 .footer-content .social {
+  width: 30%;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   gap: 1vw;
   margin-left: 5vw;
 }
@@ -87,6 +90,8 @@ footer .mob-map {
   width: 100%;
   list-style: none;
   display: flex;
+  flex-direction: column;
+  gap: 0.6vw;
   justify-content: space-between;
   align-items: center;
   padding: 0;
@@ -98,6 +103,7 @@ footer .mob-map {
   font-weight: 600;
   font-size: 1.2vw;
   border-bottom: 2px solid transparent;
+  text-wrap: nowrap;
 }
 .footer-content .social .quick-links ul li a:hover {
   border-color: black;
@@ -119,6 +125,7 @@ footer .mob-map {
   text-transform: uppercase;
   font-size: 1.2vw;
   font-weight: 600;
+  text-align: center;
 }
 
 @media screen and (max-width: 768px) and (min-width: 480px) {
@@ -127,16 +134,17 @@ footer .mob-map {
     /* width: 75%; */
   }
   .map {
-    margin-left: 4vw;
-    /* margin-bottom: -5vw; */
-    width: 25vw;
-    margin-right: -2vw;
+    width: 35vw;
+    margin: 0;
+    margin-right: 3vw;
+    margin-top: 3vw;
   }
   .footer-content .social {
+    width: 55%;
+
     display: flex;
     flex-direction: column;
     gap: 1vw;
-    /* border: 2px solid red; */
     margin-left: 0;
   }
 
@@ -154,6 +162,7 @@ footer .mob-map {
     border-color: black;
   }
   .footer-content .social .clutch {
+    width: 110%;
     display: flex;
     gap: 2vw;
     align-items: center;
@@ -163,13 +172,14 @@ footer .mob-map {
   }
   .footer-content .social .clutch img {
     width: 6vw;
+    height: 100%;
   }
 
   .footer-content .social .clutch p {
     color: #26333c;
     margin: auto;
     text-transform: uppercase;
-    font-size: 1.3vw;
+    font-size: 1.5vw;
     font-weight: 600;
   }
 }
@@ -245,11 +255,13 @@ footer .mob-map {
     border: 1px solid black;
   }
   .footer-content .social {
+    width: 100%;
     display: flex;
     align-self: stretch;
     flex-direction: column;
     gap: 2vw;
     margin: 0;
+    /* border:2px solid red; */
   }
 
   .footer-content .social .quick-links {

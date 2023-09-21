@@ -62,20 +62,6 @@ body {
   display: flex;
   flex-direction: column;
 }
-
-/* .hero-main .content h1 {
-  font-size: 3.6vw;
-  text-transform: uppercase;
-  line-height: 3vw;
-}
-.hero-main .content h1 span {
-  font-size: 2.5vw;
-  font-weight: 500;
-  letter-spacing: 0.9vw;
-} */
-
-/* temp */
-
 .hero-main .content h1 {
   font-size: 3.6vw;
   width: 65%;
@@ -89,16 +75,12 @@ body {
   text-align: center;
   width: 65%;
   margin-top: 1vw;
-  /* border: 2px solid red; */
-  /*  */
 }
-
 .hero-main img {
   width: 35%;
   position: absolute;
   left: 40%;
 }
-
 .hero-main .heading {
   align-self: flex-end;
   display: flex;
@@ -271,9 +253,7 @@ body {
   align-items: center;
 }
 .content .content-body img {
-  /* height: 95vh; */
   width: 55%;
-  /* border: 2px solid red; */
 }
 .content .content-body hr {
   width: 2px;
@@ -282,11 +262,9 @@ body {
 
 .content h1 {
   font-size: 4vw;
-  font-weight: 900;
 }
 .content p {
-  font-size: 1.5vw;
-  /* font-weight: 600; */
+  font-size: 1.4vw;
   text-align: justify;
 }
 .software-dev .left-oval {
@@ -335,7 +313,7 @@ body {
     height: 2px;
   }
   .content p {
-    font-size: 3.2vw;
+    font-size: 2vw;
     margin-top: 2vw;
   }
 }
@@ -361,15 +339,12 @@ body {
     width: 2px;
     height: 30vw;
   }
-
   .content p {
-    font-size: 2.2vw;
+    font-size: 2.5vw;
     margin-top: 2vw;
   }
 }
-
 /* Industries */
-
 .industries {
   display: grid;
   gap: 3vw;

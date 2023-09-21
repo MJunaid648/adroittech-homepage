@@ -19,7 +19,7 @@ body {
 }
 
 main {
-  padding: 2vw 4vw;
+  padding: 2vw 6vw;
   display: flex;
   flex-direction: column;
 }
@@ -27,24 +27,24 @@ main {
 main h1 {
   text-align: center;
   letter-spacing: 5px;
-  font-size: 3vw;
+  font-size: 2.8vw;
   margin-bottom: 2vw;
 }
 main h2 {
-  font-size: 1.7vw;
+  font-size: 1.6vw;
 }
 main h3 {
-  font-size: 1.5vw;
+  font-size: 1.4vw;
 }
 main p {
-  font-size: 1.4vw;
+  font-size: 1.2vw;
   text-align: justify;
 }
 a {
   color: white;
 }
 p span {
-  font-size: 1.5vw;
+  font-size: 1.2vw;
   font-weight: 600;
 }
 
@@ -59,7 +59,7 @@ ul.laws-list li > ul li ul {
   list-style: lower-roman;
 }
 li {
-  font-size: 1.4vw;
+  font-size: 1.2vw;
   text-align: justify;
 }
 li span {
@@ -75,25 +75,25 @@ li span {
   }
 
   main h1 {
-    font-size: 4vw;
+    font-size: 3.8vw;
   }
   main h2 {
-    font-size: 2.7vw;
+    font-size: 2.6vw;
   }
   main h3 {
-    font-size: 2.5vw;
+    font-size: 2.4vw;
   }
   main p {
-    font-size: 2.5vw;
+    font-size: 2.2vw;
   }
   p span {
-    font-size: 2.5vw;
+    font-size: 2.2vw;
   }
   ul {
     padding: 0 5vw;
   }
   li {
-    font-size: 2.5vw;
+    font-size: 2.2vw;
   }
 }
 
@@ -102,22 +102,22 @@ li span {
     padding-top: 8vw;
   }
   main h1 {
-    font-size: 5vw;
+    font-size: 4.8vw;
   }
   main h2 {
-    font-size: 3.7vw;
+    font-size: 3.6vw;
   }
   main h3 {
-    font-size: 3.5vw;
+    font-size: 3.4vw;
   }
   main p {
-    font-size: 3.5vw;
+    font-size: 3.2vw;
   }
   p span {
-    font-size: 3.5vw;
+    font-size: 3.2vw;
   }
   li {
-    font-size: 3.5vw;
+    font-size: 3.2vw;
   }
 }
 
